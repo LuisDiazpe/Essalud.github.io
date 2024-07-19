@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* BARRA DE SCROLL */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #0072bc;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #eaeaea;
+}
+
+
+.header-container {
+    background-color: #0072bc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.logo_esSaludLinea{
+    position: absolute;
+    top: -40px;
+    right: -100px;
+    transform: scale(.5);
+}
+
+.header-info {
+    font-size: 14px;
+}
+
+nav {
+    background-color: #005f9c;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #004080;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar, .sidebar-right {
+    width: 220px;
+    background-color: #e9e9e9;
+    padding: 10px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2, .sidebar-right h2 {
+    font-size: 18px;
+    color: #0072bc;
+    border-bottom: 2px solid #0072bc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.sidebar ul, .sidebar-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li, .sidebar-right ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a, .sidebar-right ul li a {
+    text-decoration: none;
+    color: #0072bc;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover, .sidebar-right ul li a:hover {
+    text-decoration: underline;
+}
+
+.fa-star{
+    color: #fff;
+    font-size: 10px;
+    margin-right: 5px;
+    background-color: #005f9c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1 {
+    font-size: 24px;
+    color: #0072bc;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+
+.tab-button {
+    background-color: #0072bc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: .5s;
+    filter: drop-shadow(1px 10px 10px black);
+}
+
+.tab-button.active, .tab-button:hover {
+    background-color: #005f9c;
+}
+
+.tab-content {
+    display: block;
+}
+
+h2 {
+    font-size: 20px;
+    color: #005f9c;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #0072bc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-container p {
+    margin: 5px 0;
+}
