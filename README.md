@@ -21,7 +21,6 @@ El diseño propuesto busca proporcionar una apariencia más intuitiva y funciona
 
 - **HTML5**: Estructura del diseño.
 - **CSS3**: Estilo visual para mejorar la apariencia.
-- **JavaScript**: Interactividad básica para mejorar la experiencia del usuario.
 
 ## 💡 Objetivo del proyecto
 
